@@ -1,0 +1,177 @@
+body{
+    margin:0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 0;
+}
+h1{
+    font-size: 190%;    
+}
+h2{
+    font-size: 130%;
+}
+nav, p {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+a:link{
+    color: black;
+}
+a:visted {
+    color:black;
+}
+.contentWrapper{
+    background-color: white;
+}
+#Heading_Underline{
+    border-top: 2px solid black;
+    width: 45px;
+    display: block;
+    margin: auto;
+}
+
+/* Header */
+header{
+    margin: 0 0 10px 0;
+    border-top: solid 01px black; /*#4588AD;*/
+    border-bottom: solid 1px black; /* #C0C2CF; /*black;/* #4588AD;*/
+    width: 100%;
+    height:80px;
+    background-color:  #78C6DE; /*#FC434E;/* #A1AAD3
+    ; /* #4979C5;/* #6285C5; /* #F3C2C5; /*#507DC3;   #6c8cc9*/
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+} 
+a:link{
+    color: black;
+}
+a:visited {
+    color:black;
+}
+a:hover{
+    background-color: #F16368;
+}
+#icon{
+    margin: 5px;
+    height: 75%;
+    padding:12.5px;
+    display: flex;
+    order:1;   
+}
+#company {
+     order: 2;    
+}
+header.search{
+    order: 3;
+}
+#navi{
+    order: 4;
+    margin-left: auto; 
+    margin-right: 10px;
+    font-size:130%; 
+    padding: 20px;
+}
+#navi a{
+    margin: 0 15px;
+}
+
+/* end Header */
+
+/* Banner section*/
+.banner{
+    margin:  auto;
+    margin-top: -20px;
+}
+.banner nav{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+.banner a {
+    margin: 30px;
+}
+.banner img{
+    width: 95%;
+    margin: auto;
+    margin-top: -30px;
+    justify-self: center;
+    display: block;
+}
+/* end Banner section*/
+
+/* productGroups section */
+.productGroups
+{
+    display: block;
+    margin: 0 auto;
+    align-content: center;   
+}
+.productGroups h1{
+    text-align: center;   
+}
+.productGroups p{
+    text-align: center;
+}
+#Flex1{
+    background-color: #78C6DE; 
+    margin: 0 auto;
+    padding-left: 38px;
+}
+.productGroups img{
+    width: 27%;
+    display:inline-flex;
+    margin: 0 auto;
+    padding: 5px;
+    margin-left: 3%;
+    border: solid 4px  #78C6DE; 
+}
+
+/*end productGroups Section*/
+
+/* info section */
+.info{
+    text-align: center;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 20px;
+}
+.info p{
+    padding: 0% 30%;
+    margin: 10px;
+}
+/* end info section */
+
+/*featured*/
+.featured {
+    display: block;
+    padding: 30px;
+    margin: auto;
+}
+.featured h2{
+    text-align: center;  
+}
+
+.featured img{
+    width: 18%;
+    display:inline-flex;
+    margin-left: 2%;
+    padding: 23px;
+    /*border: solid 1px grey;*/
+}
+
+/* footer */
+footer{
+    margin: 0 0 10px 0;
+    border-bottom: solid 0px #4588AD;
+    border-top: solid 1px black;/* #4588AD;*/
+    width: 100%;
+    height:60px;
+    background-color:#5E9BBD; /* #F3C2C5; /*#507DC3;   #6c8cc9*/
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+
+
