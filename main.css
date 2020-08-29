@@ -125,7 +125,6 @@ header.search{
     margin-left: 3%;
     border: solid 4px  #78C6DE; 
 }
-
 /*end productGroups Section*/
 
 /* info section */
@@ -144,23 +143,21 @@ header.search{
 /*featured*/
 .featured {
     display: block;
-    padding: 30px;
+    padding: 0 5%;
     margin: auto;
 }
 .featured h2{
     text-align: center;  
 }
-
 .featured img{
     width: 18%;
     display:inline-flex;
     margin-left: 2%;
     padding: 23px;
-    /*border: solid 1px grey;*/
 }
+/* end of featured */
 
 /* footer */
-
 .foot{
     margin: 20px 0 10px 0;
     border-bottom: solid 0px #4588AD;
@@ -174,26 +171,26 @@ header.search{
     align-content: space-between;
 }
 #copyright{
-    order: 3;
+    order: 1;
     margin-top:20px;
-    margin-left: 40%;
-    font-size: 20px;
-}
-#contact{
-    order:1;
-    margin-top: 20px;
     margin-left: 40px;
     font-size: 20px;
 }
 #socialLinks{
-    order: 4;
-    margin-left: auto; 
-    margin-right: 50px;
+    order: 2;
+    margin-left: 35%; 
+    margin-right: 40px;
     font-size:130%; 
     padding: 20px;
 }
 #socialLinks a{
     margin: 20px;
+}
+#contact{
+    order:3;
+    margin-top: 20px;
+    margin-left: 25%;
+    font-size: 20px;
 }
 
 
