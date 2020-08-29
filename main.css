@@ -160,8 +160,9 @@ header.search{
 }
 
 /* footer */
-footer{
-    margin: 0 0 10px 0;
+
+.foot{
+    margin: 20px 0 10px 0;
     border-bottom: solid 0px #4588AD;
     border-top: solid 1px black;/* #4588AD;*/
     width: 100%;
@@ -171,7 +172,29 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-between;
-
 }
+#copyright{
+    order: 3;
+    margin-top:20px;
+    margin-left: 40%;
+    font-size: 20px;
+}
+#contact{
+    order:1;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+#socialLinks{
+    order: 4;
+    margin-left: auto; 
+    margin-right: 50px;
+    font-size:130%; 
+    padding: 20px;
+}
+#socialLinks a{
+    margin: 20px;
+}
+
 
 
